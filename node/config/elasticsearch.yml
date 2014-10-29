@@ -1,0 +1,19 @@
+#Cluster Name
+cluster.name: elasticsearch
+# Node Name
+node.name: NODE_NAME
+# Is Master node
+node.master: false
+# Is data node
+node.data: true
+# Path to data
+path.data: /data/data
+# Path to log
+path.logs: /data/log
+# Path to plugins
+path.plugins: /data/plugins
+# Path to temporary files
+path.work: /data/work
+# Disable dynamic scripting
+script.disable_dynamic: true
+
